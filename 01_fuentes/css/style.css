@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico|Roboto');
+@font-face (font-family:'Perma';
+        src:url('../assets/PermanentMaker-Regular.ttf'));
+
+*,
+*::after, *::before,
+*::after, *::before,
+¨{
+    box-sizing: border-box
+}
+body {
+    background-color: bisque
+}
+
+h1 {
+    font-family: Perma, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+h2 {
+    font-family: Pacifico,'Times New Roman', Times, serif
+}
+p {
+    font-family: Roboto; sans-serif;
+}
