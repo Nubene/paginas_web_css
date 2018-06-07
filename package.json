@@ -1,0 +1,28 @@
+{
+  "name": "paginas_web_css",
+  "version": "1.0.0",
+  "description": "Pruebas de CSS",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass scss:css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nubene/paginas_web_css.git"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "js"
+  ],
+  "author": "Alex",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nubene/paginas_web_css/issues"
+  },
+  "homepage": "https://github.com/Nubene/paginas_web_css#readme",
+  "dependencies": {
+    "bootstrap": "^4.1.1"
+  }
+}
