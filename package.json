@@ -4,8 +4,9 @@
   "description": "Pruebas de CSS",
   "main": "index.js",
   "scripts": {
-    "sass": "sass scss:css",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    
+    "test": "echo \"Error: no test specified\" && exit 1"´
+    
   },
   "repository": {
     "type": "git",
