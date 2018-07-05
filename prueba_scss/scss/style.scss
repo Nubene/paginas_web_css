@@ -1,0 +1,134 @@
+*{
+    box-sizing: border-box;
+}
+body, h1, h2, h3, figure, ul, li{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    a{
+        text-decoration: none;
+        color: inherit;
+    }
+}
+
+/*MediaQuery 0 */
+
+.noru_wrapper{ /* creado para no petar el body de cosas, cuantas menos tenga mejor y se lo aplicamos en class a lo que queramos */
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+$color_main: rgb(236, 236, 236);
+body{
+   background-color: $color_main;
+   /*width: 95%;
+   margin-left: auto;  los margin auto funcionan si tienen width si no no hace nada 
+   margin-right: auto;
+   **Está colocado en el noru_wrapper
+   */
+
+}
+h1, h2{
+    margin: 0.5rem;
+    color: crimson;
+}
+
+img{
+    /*width: 100%;  Para que ocupen el 100 de la pantalla */
+    max-width: 100%;
+    display:block;
+    margin:auto;
+}
+.hamburguesa{
+    max-width: 50px;
+    max-height: 50px;
+    float: right;
+}
+article{
+    .imgnorua, .imgnorub{
+        padding: left;
+    }
+    .imgnoreco{
+        max-width: 100%;
+    }
+}
+#topmenu{
+    display: none;
+}
+#botmenu{
+    visibility: visible;
+    margin-top: 1rem;
+    text-align: center;
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: midnightblue;
+            li {
+                float: left;
+                a{
+                display: block;
+                color: white;
+                padding: 0.8rem 1rem;
+                text-decoration: none;
+                }
+                a:hover {
+                    background-color: crimson;
+                }
+                }
+            }
+        }
+
+/*MediaQuery 1 */
+@media screen and (min-width: 525px){
+
+#topmenu{
+    display: block; // <-display block, no visibility: visible
+    margin-top: 1rem;
+    text-align: center;
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: midnightblue;
+            li {
+                float: left;
+                a{
+                display: block;
+                color: white;
+                padding: 0.8rem 1rem;
+                text-decoration: none;
+                }
+                a:hover {
+                    background-color: crimson;
+                }
+                }
+            }
+        }
+
+#botmenu{
+    display: none;
+    }
+
+.hamburguesa{
+    display: none;
+    }
+
+}
+
+
+/*MediaQuery 2 */
+@media screen and (min-width: 850px){
+article{
+    .imgnorua, .imgnorub{
+        padding: left;
+    }
+    .imgnoreco{
+        max-width: 75%;
+    }
+    }
+}
